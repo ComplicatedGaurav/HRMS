@@ -3,6 +3,18 @@ const path = require('path');
 
 const srcDir = path.join(__dirname, 'public');
 const destDir = path.join(__dirname, 'dist');
+const fs = require('fs');
+const path = require('path');
+
+
+
+if (!fs.existsSync(srcDir)) {
+  console.error('Source directory does not exist:', srcDir);
+  process.exit(1);
+}
+
+// The rest of your copy logic...
+
 
 // Function to copy files and directories recursively
 function copyRecursiveSync(src, dest) {
