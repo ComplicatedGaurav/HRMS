@@ -1,0 +1,11 @@
+{
+    "builds": [
+      {
+        "src": "client/package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "scripts": {
+      "build": "vite build"
+    }
+  }
