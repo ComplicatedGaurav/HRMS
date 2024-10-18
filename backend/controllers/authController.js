@@ -4,7 +4,7 @@ const crypto = require('crypto-js');
 const { userModel, newEmployeeModel, LeaveModel, eventModel, Position, TrainingModule, empModule } = require("../models/user");
 const { hashPassword, comparePassword } = require("../helpers/auth");
 
-http://localhost:5173/adminRegister                            link to change admin
+// http://localhost:5173/adminRegister  link to change admin
 const loginUser = async (req, res) => {
     try {
         const { email, password } = req.body;
