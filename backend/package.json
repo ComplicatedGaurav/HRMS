@@ -27,7 +27,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "build": "vite build",
+    "build": "npx vite build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
