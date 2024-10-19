@@ -43,7 +43,7 @@ const EmpDashboard = () => {
               className="d-flex align-items-center pb-3 mb-md-1 mt-md-3 me-md-auto text-white text-decoration-none"
             >
               <span className="pt-2 ms-2 fs-4 fw-bolder d-none d-sm-inline">
-                StaffSphere
+                HRMS
               </span>
             </Link>
             <ul
