@@ -20,7 +20,7 @@ app.use(express.static('Public'))
 app.use(cors({
     methods: ['GET', 'POST', 'PUT', "DELETE"],
     credentials: true,
-    origin: "http://localhost:5173", // Update with your frontend 
+    origin: "https://hrms-xg6q.vercel.app", // Update with your frontend 
 }));
 
 app.use('/', require('./routes/authRoutes'))
