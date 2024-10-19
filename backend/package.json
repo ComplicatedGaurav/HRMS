@@ -27,7 +27,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "build": "vite build",
+"build": "echo 'No build step for backend'",
+
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
